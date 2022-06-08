@@ -1,0 +1,10 @@
+import time
+myau = int(input('Сколько вам лет?:\n>'))
+print('zagruzka..........')
+if myau < 10:
+    print('вы ляля')
+else:
+    for i in range(myau):
+        print('zagruzka..........')
+        time.sleep(0.9)
+    print ('вам' , myau , 'лет!!!!')
